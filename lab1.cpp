@@ -82,7 +82,7 @@ string binaryConverterInt(int bit, int reserve){
 
     // поиск степени для экспоненты
       for(int i=0;i<=firstPiece.length();i++){
-          if(expPiece>2){
+          if(expPiece>=2){
               ++extent;
               expPiece/=2;
           }
